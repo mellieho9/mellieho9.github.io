@@ -1,0 +1,111 @@
+a.nav-link {
+  font-family: "DM Mono", monospace;
+}
+
+a {
+  color: #5AEDEA;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E3F4FE;
+  text-decoration: none;
+}
+
+a:active {
+  color: #E3F4FE;
+  text-decoration: none;
+}
+
+.fit-cover {
+  object-fit: cover;
+}
+
+.project-tech-list {
+  font-family: "DM Mono";
+  font-size: small;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 2;
+  margin: 25px 0px 10px;
+  padding: 0px;
+  list-style: none;
+}
+
+.mb-4 {
+  text-align: left;
+  color: #adbcc7;
+  font-family: "DM Sans";
+}
+
+.p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "DM Sans";
+}
+
+.p {
+  font-family: "DM Sans";
+}
+
+/* Style the tab */
+.tab {
+  float: left;
+  width: 30%;
+  height: 250px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  display: block;
+  background-color: inherit;
+  font-family: "DM Mono";
+  font-size: small;
+  color: #ADBCC7;
+  padding: 5px 10px;
+  width: 80%;
+  border: none;
+  border-left: 1px solid #ADBCC7;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #1E2D5B;
+  color: #5AEDEA;
+  border-left: 1px solid #5AEDEA;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  color: #5AEDEA;
+  border-left: 1px solid #5AEDEA;
+}
+
+/* Style the tab content */
+.tabcontent {
+  padding: 0px 12px;
+  border-left: none;
+  height: 250px;
+}
+
+.fa {
+  color: #5AEDEA;
+  padding: 15px;
+  font-size: 1.5em;
+}
+
+.fa:hover {
+  color: #E3F4FE;
+  padding: 15px;
+  font-size: 1.5em;
+}
+
+.fa:active {
+  color: #E3F4FE;
+  padding: 15px;
+  font-size: 1.5em;
+}

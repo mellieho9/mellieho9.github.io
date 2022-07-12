@@ -1,1 +1,1 @@
-web: node ./app.js
+web: node /assets/js/app.js

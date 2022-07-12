@@ -52,7 +52,7 @@ a:active {
 .tab {
   float: left;
   width: 30%;
-  height: 350px;
+  height: 150%;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -89,7 +89,7 @@ a:active {
 .tabcontent {
   padding: 0px 12px;
   border-left: none;
-  height: 350px;
+  height: 150%;
 }
 
 .fa {

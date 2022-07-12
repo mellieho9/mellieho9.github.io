@@ -146,24 +146,6 @@ padding-bottom: 1.5rem!important; padding-right: 5rem!important; padding-left: 5
                 </ul>
     </div>
         </div>
-<script>
-    function openTab(evt, tabName) {
-      var i, tabcontent, tablinks;
-      tabcontent = document.getElementsByClassName("tabcontent");
-      for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-      }
-      tablinks = document.getElementsByClassName("tablinks");
-      for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-      }
-      document.getElementById(tabName).style.display = "block";
-      evt.currentTarget.className += " active";
-    }
-
-    // Get the element with id="defaultOpen" and click on it
-    document.getElementById("defaultOpen").click();
-</script>
 </div>
 <div id = "project" class="container py-4 py-xl-5" style="padding-top: 1.5rem!important;
 padding-bottom: 1.5rem!important; padding-right: 5rem!important; padding-left: 5rem!important">
@@ -319,6 +301,7 @@ padding-bottom: 1.5rem!important;">
     </div>
 </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/app.js"></script>
 </body>
 
 </html>

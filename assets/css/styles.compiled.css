@@ -1,19 +1,24 @@
 a.nav-link {
   font-family: "DM Mono", monospace;
+  color: #65C5D4;
+}
+
+a.nav-link:hover {
+  color: #65C5D4;
 }
 
 a {
-  color: #5AEDEA;
+  color: #65C5D4;
   text-decoration: none;
 }
 
 a:hover {
-  color: #E3F4FE;
+  color: #374449;
   text-decoration: none;
 }
 
 a:active {
-  color: #E3F4FE;
+  color: #374449;
   text-decoration: none;
 }
 
@@ -35,7 +40,7 @@ a:active {
 
 .mb-4 {
   text-align: left;
-  color: #adbcc7;
+  color: #374449;
   font-family: "DM Sans";
 }
 
@@ -52,7 +57,7 @@ a:active {
 .tab {
   float: left;
   width: 30%;
-  height: 150%;
+  height: 200%;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -61,11 +66,11 @@ a:active {
   background-color: inherit;
   font-family: "DM Mono";
   font-size: small;
-  color: #ADBCC7;
-  padding: 5px 10px;
+  color: #374449;
+  padding: 9px 25px;
   width: 80%;
   border: none;
-  border-left: 1px solid #ADBCC7;
+  border-left: 1px solid #374449;
   outline: none;
   text-align: left;
   cursor: pointer;
@@ -74,38 +79,112 @@ a:active {
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #1E2D5B;
-  color: #5AEDEA;
-  border-left: 1px solid #5AEDEA;
+  background-color: #F9F9F9;
+  color: #65C5D4;
+  border-left: 1px solid #65C5D4;
 }
 
 /* Create an active/current "tab button" class */
 .tab button.active {
-  color: #5AEDEA;
-  border-left: 1px solid #5AEDEA;
+  color: #65C5D4;
+  border-left: 1px solid #65C5D4;
 }
 
 /* Style the tab content */
 .tabcontent {
   padding: 0px 12px;
   border-left: none;
-  height: 150%;
+  height: 200%;
 }
 
 .fa {
-  color: #5AEDEA;
+  color: #73cdf3;
   padding: 15px;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 .fa:hover {
-  color: #E3F4FE;
+  color: #374449;
+  padding: 15px;
+  font-size: 2em;
+}
+
+.fa:active {
+  color: #374449;
   padding: 15px;
   font-size: 1.5em;
 }
 
-.fa:active {
-  color: #E3F4FE;
-  padding: 15px;
-  font-size: 1.5em;
+body{
+  background-color: #F9F9F9;
+  color: #374449;
+}
+
+/* Popup container */
+.popup {
+  position: relative;
+
+  display: inline-block;
+  cursor: pointer;
+}
+
+
+/* The actual popup (appears below) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index:1;
+  left: 50%;
+  margin-left: -80px;
+  top: 125%;
+}
+
+
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+.columnsintro-home {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: -30px;
+}
+.columnintro-home1 {
+  margin-right: -40px;
+  margin-left: 100px;
+  width: 40%;
+}
+
+.columnintro-home {
+width: 50%;
+}
+
+.landingportfolioshot {
+  width: 370px;
+  margin-right: 300px;
 }

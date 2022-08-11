@@ -15,3 +15,18 @@
 
     // Get the element with id="defaultOpen" and click on it
     document.getElementById("defaultOpen").click();
+
+    
+
+    function popupMsg(e,popupName) {
+      var popup = document.getElementById(popupName);
+      popup.classList.toggle("show");
+      setTimeout(() => {
+        document.getElementById(popupName).classList.remove('show');
+      
+        // 👇️ hides element (still takes up space on page)
+        // box.style.visibility = 'hidden';
+      }, 1000); // 👈️ time in milliseconds
+    }
+
+    
